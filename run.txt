@@ -1,0 +1,1 @@
+g++ oop.cpp -o oop $(pkg-config --cflags --libs opencv4 gtk+-3.0) -std=c++17 -Wall -Wextra -O2 && ./oop
